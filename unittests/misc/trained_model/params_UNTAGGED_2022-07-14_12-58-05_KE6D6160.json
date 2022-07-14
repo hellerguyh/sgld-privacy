@@ -1,0 +1,21 @@
+{
+ "nn_type": "LeNet5",
+ "normalize": true,
+ "ds_name": "MNIST",
+ "batch_size": 4,
+ "epochs": 5,
+ "lr": 1.3888888888888888e-07,
+ "opacus": false,
+ "scheduler_type": "Cosine",
+ "clip_val": -1,
+ "save_model": true,
+ "cuda_device_id": -1,
+ "delta": 1e-05,
+ "tag": false,
+ "pred_mal_samples": false,
+ "save_model_path": "tmp/create_adv_sample/",
+ "repeat": 20,
+ "wandb_run_name": "test",
+ "wandb_project": "test",
+ "adv_sample_img": null
+}

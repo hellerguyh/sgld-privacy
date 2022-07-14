@@ -1,0 +1,30 @@
+{
+ "models_path": "clipped-mnist-lenet-attack/create_adv_sample/cv02/30m/",
+ "adv_sample_folder": "clipped-mnist-lenet-attack/adv_samples/cv02/30m/",
+ "num_models": 30,
+ "nn_type": "LeNet5",
+ "normalize": true,
+ "ds_name": "MNIST",
+ "batch_size": 4,
+ "epochs": 50,
+ "lr": 1.3888888888888888e-07,
+ "opacus": true,
+ "scheduler_type": "Cosine",
+ "clip_val": 0.2,
+ "save_model": true,
+ "cuda_device_id": 0,
+ "delta": 1e-05,
+ "tag": false,
+ "pred_mal_samples": false,
+ "save_model_path": "trained_models/clipped/lenet5/mnist/create_adv_sample/cv02/",
+ "repeat": 5,
+ "wandb_run_name": "create_adv_sample",
+ "wandb_project": "clipped_lenet5_mnist_attack",
+ "adv_sample_img": null,
+ "adv_label": 5,
+ "orig_label": 0,
+ "img_idx": 1,
+ "most_common_labels": [
+  5
+ ]
+}
